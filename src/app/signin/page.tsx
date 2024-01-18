@@ -35,9 +35,11 @@ export default function SignIn() {
                 alt={siteConfig.title}
                 className="dark:invert"
                 priority
+                width={155}
+                height={28}
               />
             </Link>
-            {notIn && (
+            {/* {notIn && (
               <Button
                 variant="outline"
                 size="sm"
@@ -45,7 +47,7 @@ export default function SignIn() {
               >
                 Go to home
               </Button>
-            )}
+            )} */}
           </div>
         </div>
       </div>

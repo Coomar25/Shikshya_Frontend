@@ -3,28 +3,30 @@ import {
   PiInstagramLogoFill,
   PiTwitterLogoFill,
   PiYoutubeLogoFill,
+  PiLinkedinLogoFill,
 } from 'react-icons/pi';
+import { FaLinkedin } from 'react-icons/fa6';
 
 const socialData = [
   {
     title: 'Facebook',
     icon: <PiFacebookLogoFill className="h-auto w-4" />,
-    link: 'https://facebook.com',
+    link: 'https://www.facebook.com/shotcodertech',
   },
   {
     title: 'Twitter',
     icon: <PiTwitterLogoFill className="h-auto w-4" />,
-    link: 'https://twitter.com',
+    link: 'https://twitter.com/shotcodertech',
   },
   {
     title: 'Instagram',
     icon: <PiInstagramLogoFill className="h-auto w-4" />,
-    link: 'https://instagram.com',
+    link: 'https://www.instagram.com/shotcodertech/',
   },
   {
     title: 'Youtube',
-    icon: <PiYoutubeLogoFill className="h-auto w-4" />,
-    link: 'https://youtube.com',
+    icon: <PiLinkedinLogoFill className="h-auto w-4" />,
+    link: 'https://www.linkedin.com/company/shotcoder/',
   },
 ];
 

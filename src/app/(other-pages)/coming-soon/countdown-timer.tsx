@@ -54,7 +54,7 @@ function Render({ days, hours, minutes, seconds, completed }: any) {
 export default function CountdownTimer() {
   return (
     <div>
-      <Countdown date={Date.now() + 2000000000} renderer={Render} />
+      <Countdown date={Date.now() + 6480000000} renderer={Render} />
     </div>
   );
 }
