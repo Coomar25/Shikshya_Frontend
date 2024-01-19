@@ -29,16 +29,14 @@ export default function SignIn() {
               notIn ? 'justify-between' : 'justify-center'
             )}
           >
-            <Link href={'/'}>
-              <Image
-                src={logo}
-                alt={siteConfig.title}
-                className="dark:invert"
-                priority
-                width={155}
-                height={28}
-              />
-            </Link>
+            <Image
+              src={logo}
+              alt={siteConfig.title}
+              className="dark:invert"
+              priority
+              width={155}
+              height={28}
+            />
             {/* {notIn && (
               <Button
                 variant="outline"
