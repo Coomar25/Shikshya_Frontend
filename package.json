@@ -116,4 +116,10 @@
   },
   "readme": "ERROR: No README data found!",
   "_id": "isomorphic-furyroad@0.0.1"
+},
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  }
 }
